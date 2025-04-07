@@ -2,6 +2,84 @@
 
 April 7th 2025
 
+## System Prompts Navigation
+
+| Category | Prompt | Description |
+|----------|--------|-------------|
+| **Basic** | [Basic Cleanup](system-prompts/basic/basic-cleanup.md) | The foundation prompt for all STT transformations |
+| **Business Correspondence** | [Budget Request](system-prompts/business-correspondence/budget-request.md) | Format text as a budget request |
+| | [Business Proposal](system-prompts/business-correspondence/business-proposal.md) | Format text as a business proposal |
+| | **Job Seeking** | |
+| | [Interview Thank You](system-prompts/business-correspondence/job-seeking/interview-thank-you.md) | Format text as an interview thank you note |
+| | [Job Speculative Pitch](system-prompts/business-correspondence/job-seeking/job-speculative-pitch.md) | Format text as a speculative job application |
+| | **Project Management** | |
+| | [Scope Clarification](system-prompts/business-correspondence/project-management/scope-clarification.md) | Format text as a project scope clarification |
+| | [Status Update](system-prompts/business-correspondence/project-management/status-update.md) | Format text as a project status update |
+| | [Team Management](system-prompts/business-correspondence/project-management/team-management.md) | Format text for team management communications |
+| | [Quote Request](system-prompts/business-correspondence/quote-request.md) | Format text as a quote request |
+| | [Remote Job Application](system-prompts/business-correspondence/remote-job-application.md) | Format text as a remote job application |
+| | [Specific Job Application](system-prompts/business-correspondence/specific-job-application.md) | Format text as a specific job application |
+| **Content Creation** | [Long Social Media](system-prompts/content-creation/long-social-media.md) | Format text for long-form social media posts |
+| | [Short Social Media](system-prompts/content-creation/short-social-media.md) | Format text for short-form social media posts |
+| | [Technical Documentation](system-prompts/content-creation/technical-documentation.md) | Format text as technical documentation |
+| | [YouTube Outline](system-prompts/content-creation/youtube-outline.md) | Format text as a YouTube video outline |
+| **Format** | [Acronym Expansion](system-prompts/format/acronym-expansion.md) | Expand acronyms in the text |
+| | **AI Prompts** | |
+| | [System Prompt](system-prompts/format/ai-prompts/system-prompt.md) | Format text as an AI system prompt |
+| | [User Prompt](system-prompts/format/ai-prompts/user-prompt.md) | Format text as an AI user prompt |
+| | [Blog Outline](system-prompts/format/blog-outline.md) | Format text as a blog post outline |
+| | [Boundary Setting](system-prompts/format/boundary-setting.md) | Format text for setting boundaries |
+| | [Brevity](system-prompts/format/brevity.md) | Make text more concise |
+| | **Business Docs** | |
+| | [Business Proposal](system-prompts/format/business-docs/business-proposal.md) | Format text as a formal business proposal |
+| | [Cold Pitch](system-prompts/format/business-docs/cold-pitch.md) | Format text as a cold pitch |
+| | [Remote Job Pitch](system-prompts/format/business-docs/remote-job-pitch.md) | Format text as a remote job pitch |
+| | [Business Email](system-prompts/format/business-email.md) | Format text as a business email |
+| | [Calendar Entry](system-prompts/format/calendar-entry.md) | Format text as a calendar entry |
+| | [Classified Listing](system-prompts/format/classified-listing.md) | Format text as a classified listing |
+| | [Contract Negotiation](system-prompts/format/contract-negotiation.md) | Format text for contract negotiations |
+| | [Data Conversion](system-prompts/format/data-conversion.md) | Convert text to structured data formats |
+| | [Decisive Communication](system-prompts/format/decisive-communication.md) | Make text more decisive |
+| | [Email](system-prompts/format/email.md) | Format text as a general email |
+| | [Emotionally Sensitive](system-prompts/format/emotionally-sensitive.md) | Format text to be emotionally sensitive |
+| | [English Improvement](system-prompts/format/english-improvement.md) | Improve English language usage |
+| | [Fact Identification](system-prompts/format/fact-identification.md) | Identify facts in the text |
+| | [Internal Email](system-prompts/format/internal-email.md) | Format text as an internal company email |
+| | [Invitation](system-prompts/format/invitation.md) | Format text as an invitation |
+| | [Job Description](system-prompts/format/job-description.md) | Format text as a job description |
+| | [Journal Entry](system-prompts/format/journal-entry.md) | Format text as a journal entry |
+| | [Log Format](system-prompts/format/log-format.md) | Format text as log entries |
+| | [Meeting Agenda](system-prompts/format/meeting-agenda.md) | Format text as a meeting agenda |
+| | [Meeting Minutes](system-prompts/format/meeting-minutes.md) | Format text as meeting minutes |
+| | [Note to Self](system-prompts/format/note-to-self.md) | Format text as a note to self |
+| | [Personal Email](system-prompts/format/personal-email.md) | Format text as a personal email |
+| | [Shell Commands](system-prompts/format/shell-commands.md) | Format text as shell commands |
+| | **Structured Data** | |
+| | [JSON Calendar Entry](system-prompts/format/structured-data/json-calendar-entry.md) | Convert text to JSON calendar entry format |
+| | [JSON Todo List](system-prompts/format/structured-data/json-todo-list.md) | Convert text to JSON todo list format |
+| | **Text Formats** | |
+| | [Blog Post](system-prompts/format/text-formats/blog-post.md) | Format text as a blog post |
+| **Signature** | [Business Signature](system-prompts/signature/business-sig.md) | Add a business email signature |
+| | [Personal Signature](system-prompts/signature/personal-sig.md) | Add a personal email signature |
+| **Simplification** | [System Prompt](system-prompts/simplification/system-prompt.md) | Simplify complex text |
+| **Style** | [Journalistic Style](system-prompts/style/journalistic-style.md) | Format text in journalistic style |
+| | [Shakespearean](system-prompts/style/shakespearean.md) | Format text in Shakespearean style |
+| **Text Length Constraints** | [Word Count 300](system-prompts/text-length-constraints/word-count-300.md) | Limit text to 300 words |
+| | [Word Count 500](system-prompts/text-length-constraints/word-count-500.md) | Limit text to 500 words |
+| **Todo Lists** | [Todo List](system-prompts/todo-lists/todo-list.md) | Format text as a todo list |
+| **Tone** | [Academic Tone](system-prompts/tone/academic-tone.md) | Apply academic tone to text |
+| | [Business Tone](system-prompts/tone/business-tone.md) | Apply business tone to text |
+| | [Formal Tone](system-prompts/tone/formal-tone.md) | Apply formal tone to text |
+| | [Friends & Family Tone](system-prompts/tone/friends-family-tone.md) | Apply casual tone for friends and family |
+| | [Informal Tone](system-prompts/tone/informal-tone.md) | Apply informal tone to text |
+| | [Jargon Removal](system-prompts/tone/jargon-removal.md) | Remove technical jargon from text |
+| | [Less Emotional](system-prompts/tone/less-emotional.md) | Make text less emotional |
+| | [More Emotional](system-prompts/tone/more-emotional.md) | Make text more emotional |
+| | [Polite Enhancement](system-prompts/tone/polite-enhancement.md) | Make text more polite |
+| | [Reformat to Email](system-prompts/tone/reformat-to-email.md) | Convert text to email format |
+| | [Simplification](system-prompts/tone/simplification.md) | Simplify text |
+| | [Unknown Recipient Tone](system-prompts/tone/unknown-recipient-tone.md) | Format text for unknown recipients |
+
 The purpose of this repository is to provide a few basic system prompts intended for transforming text captured using speech-to-text such as OpenAI Whisper and passing it through a large language model for basic refinement.
 
 ## Basic Transformation Model
@@ -53,7 +131,16 @@ Through my own use of AI for this purpose, I have developed a methodology of sor
 
 My current modus operandi is something like this:
 
-- I consider that there is a basic level of editing which all text captured with speech to text needs to go through. I've come to refer to this as a "basic cleanup" and when writing this system prompt, try to ensure that the following happens: 1) The LLM knows that the text was captured with STT. 2) Missing sentence structure is inferred. 3) Obvious typos are inferred around. 4) Obvious text reformatting instructions contained in the dictated text, such as don't include that are also considered. 5) More generally, the model is instructed to apply some basic edits for improved readability and coherence.  6) some other basic edits to improve readability are applied.
+- I consider that there is a basic level of editing which all text captured with speech to text needs to go through. I've come to refer to this as a "basic cleanup" and when writing this system prompt, try to ensure that the following happens:
+
+| Transformation | Description |
+|----------------|-------------|
+| STT Context Awareness | The LLM knows that the text was captured with speech-to-text technology |
+| Sentence Structure | Missing sentence structure is inferred and properly formatted |
+| Typo Correction | Obvious typos and speech recognition errors are corrected |
+| Instruction Filtering | Text reformatting instructions contained in the dictated text (e.g., "don't include that") are processed and removed |
+| Coherence Enhancement | The model applies basic edits for improved readability and coherence |
+| Readability Improvements | Additional edits to improve overall text readability and flow |
 
 I create a system prompt called Basic Text Cleanup and apply it to all speech to text capture text. 
 
