@@ -1,5 +1,8 @@
 # Speech To Text System Prompt Library - Using LLMs To Refine STT Outputs
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://github.com/danielrosehill/Text-Transformation-Prompt-Combiner)
+
+
 This repository provides a collection of system prompts designed to transform and refine text captured using speech-to-text technologies. 
 
 By passing STT outputs through large language models with these specialized prompts, you can achieve cleaner, more structured, and purpose-specific text formats.
@@ -250,7 +253,6 @@ As tools like MCP for email generation become realistic, the utility of these sy
 
 ## A Combined System Prompt For Dictated Text Transformation
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://github.com/danielrosehill/Text-Transformation-Prompt-Combiner)
 
 This is the base level "Basic Text Cleanup" prompt that I've developed for processing all speech-to-text content. It provides the foundation for all other transformations.
 
