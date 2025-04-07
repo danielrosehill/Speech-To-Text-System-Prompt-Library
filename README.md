@@ -1,15 +1,34 @@
-# Speech To Text System Prompt Library - Using LLMs To Refine STT Outputs
+# Speech To Text System Prompt Library 
+
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://github.com/danielrosehill/Text-Transformation-Prompt-Combiner)
-
 
 This repository provides a collection of system prompts designed to transform and refine text captured using speech-to-text technologies. 
 
 By passing STT outputs through large language models with these specialized prompts, you can achieve cleaner, more structured, and purpose-specific text formats.
+ 
+## The Idea
 
-The repository also includes a model for a prompt combiner script that allows you to concatenate different elements of this library to create highly specific and personalized system prompts. This approach enables you to layer multiple transformations (e.g., basic cleanup + business formatting + personal signature) to achieve precisely tailored outputs for your specific use cases.
+Here is the basic implementation. I don't pretend that this is the stuff of high AI engineering. But it does create quite inefficient workflow. 
 
-April 7th 2025
+The basic model is like this:
+
+ ![alt text](1.png)
+
+ The prompt stacks combine the different elements so that the LLM has as a detailed picture of the desired format of the text it must produce from the STT input:
+
+ ![alt text](2.png)
+
+ ## The MCP Angle
+
+ The text transformation "agent" also provides an excellent opportunity to optimize this workflow for use with MCP.
+
+ "Agent 2" could take the reformatted text and restructure it as JSON. 
+
+ Or the prior/main agent can be rewritten to also direct a specific structured output.
+
+ For example, an email composition configuration can be configured to output to JSON and provide specific elements for the email subject line, body text, and recipient email(s).
+
 
 ## Prompt Stacks: Text Transformation Layers
 
@@ -235,7 +254,7 @@ Best,
 User
 ```
 
-![alt text](1.png)
+ 
 
 The speech to text model is focused on doing one job well (transcription). But it may lack context to know that the person named John is the user's boss and that the ultimate objective of this transcription is to generate an internal email. 
 
