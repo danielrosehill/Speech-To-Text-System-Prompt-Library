@@ -1,15 +1,25 @@
 # Speech To Text System Prompt Library - Using LLMs To Refine STT Outputs
 
+This repository provides a collection of system prompts designed to transform and refine text captured using speech-to-text technologies. 
+
+By passing STT outputs through large language models with these specialized prompts, you can achieve cleaner, more structured, and purpose-specific text formats.
+
+The repository also includes a model for a prompt combiner script that allows you to concatenate different elements of this library to create highly specific and personalized system prompts. This approach enables you to layer multiple transformations (e.g., basic cleanup + business formatting + personal signature) to achieve precisely tailored outputs for your specific use cases.
+
 April 7th 2025
 
 ## System Prompts Navigation
 
 ### Basic Prompts
+**Foundational prompts for initial text cleanup and transformation**
+
 | Prompt | Description |
 |--------|-------------|
 | [Basic Cleanup](system-prompts/basic/basic-cleanup.md) | The foundation prompt for all STT transformations |
 
 ### Business Correspondence
+**Prompts for transforming speech into professional business communications**
+
 | Prompt | Description |
 |--------|-------------|
 | [Budget Request](system-prompts/business-correspondence/budget-request.md) | Format text as a budget request |
@@ -19,12 +29,16 @@ April 7th 2025
 | [Specific Job Application](system-prompts/business-correspondence/specific-job-application.md) | Format text as a specific job application |
 
 #### Job Seeking
+**Prompts specifically designed for job application and career advancement communications**
+
 | Prompt | Description |
 |--------|-------------|
 | [Interview Thank You](system-prompts/business-correspondence/job-seeking/interview-thank-you.md) | Format text as an interview thank you note |
 | [Job Speculative Pitch](system-prompts/business-correspondence/job-seeking/job-speculative-pitch.md) | Format text as a speculative job application |
 
 #### Project Management
+**Prompts for effective project-related communications and documentation**
+
 | Prompt | Description |
 |--------|-------------|
 | [Scope Clarification](system-prompts/business-correspondence/project-management/scope-clarification.md) | Format text as a project scope clarification |
@@ -32,6 +46,8 @@ April 7th 2025
 | [Team Management](system-prompts/business-correspondence/project-management/team-management.md) | Format text for team management communications |
 
 ### Content Creation
+**Prompts for transforming speech into various content formats for publishing**
+
 | Prompt | Description |
 |--------|-------------|
 | [Long Social Media](system-prompts/content-creation/long-social-media.md) | Format text for long-form social media posts |
@@ -40,6 +56,8 @@ April 7th 2025
 | [YouTube Outline](system-prompts/content-creation/youtube-outline.md) | Format text as a YouTube video outline |
 
 ### Format
+**General formatting prompts to structure speech into specific document types**
+
 | Prompt | Description |
 |--------|-------------|
 | [Acronym Expansion](system-prompts/format/acronym-expansion.md) | Expand acronyms in the text |
@@ -68,12 +86,16 @@ April 7th 2025
 | [Shell Commands](system-prompts/format/shell-commands.md) | Format text as shell commands |
 
 #### AI Prompts
+**Prompts for transforming speech into AI-related formats and styles**
+
 | Prompt | Description |
 |--------|-------------|
 | [System Prompt](system-prompts/format/ai-prompts/system-prompt.md) | Format text as an AI system prompt |
 | [User Prompt](system-prompts/format/ai-prompts/user-prompt.md) | Format text as an AI user prompt |
 
 #### Business Docs
+**Prompts for transforming speech into formal business documents**
+
 | Prompt | Description |
 |--------|-------------|
 | [Business Proposal](system-prompts/format/business-docs/business-proposal.md) | Format text as a formal business proposal |
@@ -81,45 +103,61 @@ April 7th 2025
 | [Remote Job Pitch](system-prompts/format/business-docs/remote-job-pitch.md) | Format text as a remote job pitch |
 
 #### Structured Data
+**Prompts that transform speech into structured data formats for use with MCP tools and other systems**
+
 | Prompt | Description |
 |--------|-------------|
 | [JSON Calendar Entry](system-prompts/format/structured-data/json-calendar-entry.md) | Convert text to JSON calendar entry format |
 | [JSON Todo List](system-prompts/format/structured-data/json-todo-list.md) | Convert text to JSON todo list format |
 
 #### Text Formats
+**Prompts for converting speech into specific text-based formats and styles**
+
 | Prompt | Description |
 |--------|-------------|
 | [Blog Post](system-prompts/format/text-formats/blog-post.md) | Format text as a blog post |
 
 ### Signature
+**Prompts for adding professional signatures to emails and documents**
+
 | Prompt | Description |
 |--------|-------------|
 | [Business Signature](system-prompts/signature/business-sig.md) | Add a business email signature |
 | [Personal Signature](system-prompts/signature/personal-sig.md) | Add a personal email signature |
 
 ### Simplification
+**Prompts for simplifying complex text into easier-to-understand formats**
+
 | Prompt | Description |
 |--------|-------------|
 | [System Prompt](system-prompts/simplification/system-prompt.md) | Simplify complex text |
 
 ### Style
+**Prompts for applying specific writing styles to transformed text**
+
 | Prompt | Description |
 |--------|-------------|
 | [Journalistic Style](system-prompts/style/journalistic-style.md) | Format text in journalistic style |
 | [Shakespearean](system-prompts/style/shakespearean.md) | Format text in Shakespearean style |
 
 ### Text Length Constraints
+**Prompts for limiting text length to specific word counts**
+
 | Prompt | Description |
 |--------|-------------|
 | [Word Count 300](system-prompts/text-length-constraints/word-count-300.md) | Limit text to 300 words |
 | [Word Count 500](system-prompts/text-length-constraints/word-count-500.md) | Limit text to 500 words |
 
 ### Todo Lists
+**Prompts for converting spoken tasks into organized todo lists**
+
 | Prompt | Description |
 |--------|-------------|
 | [Todo List](system-prompts/todo-lists/todo-list.md) | Format text as a todo list |
 
 ### Tone
+**Prompts that apply specific tonal qualities to the transformed text**
+
 | Prompt | Description |
 |--------|-------------|
 | [Academic Tone](system-prompts/tone/academic-tone.md) | Apply academic tone to text |
