@@ -29,16 +29,9 @@ The basic model is like this:
 
  For example, an email composition configuration can be configured to output to JSON and provide specific elements for the email subject line, body text, and recipient email(s).
 
+ ### Example Prompt Stacks
 
-## Prompt Stacks: Text Transformation Layers
-
-This repository introduces the concept of **Prompt Stacks** - layered combinations of system prompts that build upon each other to create highly specialized text transformations. Like a technology stack in software development, prompt stacks allow you to combine multiple prompt components to achieve precisely tailored outputs.
-
-As demonstrated in the prompt combiner script, we construct these system prompts by aggregating and combining a stack of more specific system prompts, with each layer adding new transformation capabilities.
-
-### Example Prompt Stacks
-
-Below are examples of prompt stacks that can be created using the components in this library:
+Here are a couple of examples of how the constituent elements in the various system prompt snippets here can be put together:
 
 #### Stack 1: Business Correspondence Stack
 
@@ -61,6 +54,12 @@ Below are examples of prompt stacks that can be created using the components in 
 The prompt combiner script makes it easy to build these stacks by selecting the components you need and automatically layering them in the correct order.
 
 ## System Prompts Navigation
+
+These are the various prompts and their categories in this repository. 
+
+The basis prompt is intended to provide a baseline level of text cleaning. And the other prompts provide supplementation. 
+
+The exception is the prompts that directs a JSON output directly.
 
 ### Basic Prompts
 **Foundational prompts for initial text cleanup and transformation**
