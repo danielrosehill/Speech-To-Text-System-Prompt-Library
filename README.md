@@ -8,6 +8,36 @@ The repository also includes a model for a prompt combiner script that allows yo
 
 April 7th 2025
 
+## Prompt Stacks: Text Transformation Layers
+
+This repository introduces the concept of **Prompt Stacks** - layered combinations of system prompts that build upon each other to create highly specialized text transformations. Like a technology stack in software development, prompt stacks allow you to combine multiple prompt components to achieve precisely tailored outputs.
+
+As demonstrated in the prompt combiner script, we construct these system prompts by aggregating and combining a stack of more specific system prompts, with each layer adding new transformation capabilities.
+
+### Example Prompt Stacks
+
+Below are examples of prompt stacks that can be created using the components in this library:
+
+#### Stack 1: Business Correspondence Stack
+
+| Layer | Prompt Component | Function |
+|-------|-----------------|----------|
+| 1 | Basic Cleanup | Foundation for all transformations |
+| 2 | Format as Business Correspondence | Apply business document structure |
+| 3 | Decisive Tone | Add authoritative, clear language |
+| 4 | Business Structure | Organize content with professional formatting |
+| 5 | Business Email Signature | Add formal closing and signature block |
+
+#### Stack 2: Personal Communication Stack
+
+| Layer | Prompt Component | Function |
+|-------|-----------------|----------|
+| 1 | Basic Cleanup | Foundation for all transformations |
+| 2 | Friendly Tone | Add warm, approachable language |
+| 3 | Personal Signature | Add casual closing and signature |
+
+The prompt combiner script makes it easy to build these stacks by selecting the components you need and automatically layering them in the correct order.
+
 ## System Prompts Navigation
 
 ### Basic Prompts
