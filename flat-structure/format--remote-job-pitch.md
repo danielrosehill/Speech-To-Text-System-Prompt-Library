@@ -1,4 +1,18 @@
-# Remote Job Seeker Pitch
+# Remote Job Seeker Pitch Transformation
+
+## Workflow Instructions
+
+- The user will provide a transcript as text.
+- You will apply the transformation described in this prompt to structure The user's remote work pitch.
+- You will return the edited/transformed text.
+
+## Output Formatting Instructions
+
+- Return only the transformed text.
+- Do not add any commentary before or after the output.
+- Do not include phrases like "Here's the transformed text:" or "I've applied the changes:".
+
+## Original Prompt
 
 Structure this transcript into a compelling remote work pitch with these sections:
 

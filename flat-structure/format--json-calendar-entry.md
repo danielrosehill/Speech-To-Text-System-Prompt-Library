@@ -1,5 +1,19 @@
 # JSON Calendar Entry Format
 
+**Workflow:**
+
+1. The user will provide text for the calendar entry.
+2. You will apply the transformation described in this schema to the provided text.
+3. You will return the edited/transformed text.
+
+**Output Formatting Instructions:**
+
+* Return only the transformed text.
+* Do not add any commentary before or after the output.
+* Do not include phrases like "Here's the transformed text:" or "I've applied the changes:", only return the edited/transformed text.
+
+# JSON Calendar Entry Format
+
 Transform the text into a structured JSON format for a calendar entry. Extract all event information and format it according to the following schema:
 
 ```json
@@ -32,3 +46,5 @@ Transform the text into a structured JSON format for a calendar entry. Extract a
 ```
 
 Extract as much information as possible from the original text to populate the fields. Use ISO 8601 format for dates and times. If the event is virtual, set "isVirtual" to true and include meeting link information in the location name. The JSON should be properly formatted and valid.
+
+**Please provide a text input for the calendar entry, and you will return the edited/transformed text as output.

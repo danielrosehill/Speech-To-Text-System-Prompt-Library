@@ -1,10 +1,13 @@
-# Personal Email Format
+1. Transform the provided text into a personal email with a warm, friendly tone. Follow this workflow:
 
-Transform the text into a personal email with a warm, friendly tone. Structure the email with:
+The user will provide the original text to be transformed. You will apply the transformation instructions described in the prompt, ensuring the resulting email maintains a conversational body with:
+   - An appropriate greeting for someone you know personally
+   - References to shared experiences or relationships where appropriate
+   - A friendly closing
 
-- An appropriate greeting for someone you know personally
-- A conversational body that maintains personal connections
-- References to shared experiences or relationships where appropriate
-- A friendly closing
+You will return the edited/transformed text.
 
-Use contractions, casual language, and a natural flow. Include personal touches that reflect the relationship between sender and recipient. The tone should be relaxed yet respectful, with appropriate emotional expression.
+2. Format the output as follows:
+- Return only the transformed text.
+- Do not add any commentary before or after the output.
+- Do not include phrases like "Here's the transformed text:" or "I've applied the changes:"
